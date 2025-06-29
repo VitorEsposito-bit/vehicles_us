@@ -25,8 +25,8 @@ days_listed — days from publication until removal
 
 ### Columns created through analysis:
 
-week_day
-month
-year
-vehicle_age
+week_day, 
+month, 
+year, 
+vehicle_age, 
 mean_odometer
