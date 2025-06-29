@@ -1,30 +1,32 @@
-# Vehicles_us
+# Vehicles_US
 
-Descrição do projeto
+Project Description
 
-De forma fictícia, sou analista na Lista de Eixo de Manivela. Centenas de propagandas gratuitas de veículos são publicadas no site todos os dias. Vamos estudar os dados coletados nos últimos anos e determinar quais fatores influenciaram o preço de um veículo.
-Primeiro, vamos estudar como os valores atípicos influenciam as diversas variáveis como: preço, idade do veículo, data que propaganda foi colocada e etc.
-Depois, vamos trabalhar com um dataframe filtrado sem os valores atípicos e vamos utilizar ele como base para comparar os seus resultados com o dataframe não filtrado.
-Por fim vamos analisar o número de propagandas e o preço médio para cada modelo de veículo e identificar/estudar o que influenciou no preço dos veículos.
+Fictitiously, I am an analyst at Crankshaft List. Hundreds of free vehicle advertisements are posted on the site every day. We will study the data collected over the past years and determine which factors influenced the price of a vehicle.
+First, we will study how outliers influence various variables such as: price, vehicle age, date the advertisement was posted, etc.
+Then, we will work with a filtered dataframe without outliers and use it as a basis to compare its results with the unfiltered dataframe.
+Finally, we will analyze the number of advertisements and average price for each vehicle model and identify/study what influenced vehicle prices.
 
-## Descrição de Dados
-O conjunto de dados contém os seguintes campos:
-- price
-- model_year
-- model
-- condition
-- cylinders
-- fuel — gasolina, diesel etc.
-- odometer — a quilometragem do veículo quando a propaganda foi publicada
-- transmission
-- paint_color
-- is_4wd — Se o veículo é 4 por 4 (tipo Booleano)
-- date_posted — a data que a propaganda foi publicada
-- days_listed — dias desde a publicação até a retirada
+## Data Description
+The dataset contains the following fields:
 
-### Colunas criadas via análise:
- - week_day
- - month
- - year
- - vehicle_age
- - mean_odometer
+price
+model_year
+model
+condition
+cylinders
+fuel — gasoline, diesel, etc.
+odometer — the vehicle's mileage when the advertisement was published
+transmission
+paint_color
+is_4wd — Whether the vehicle is 4-wheel drive (Boolean type)
+date_posted — the date the advertisement was published
+days_listed — days from publication until removal
+
+### Columns created through analysis:
+
+week_day
+month
+year
+vehicle_age
+mean_odometer
